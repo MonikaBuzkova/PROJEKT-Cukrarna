@@ -31,5 +31,98 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	color: #242424;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5;
 }
 
+.paticka {
+	background-color: #303339;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.logo {
+	width: 170px;
+}
+
+.hlavicka a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 20px;
+	color: #242424;
+}
+
+.hlavicka a:hover {
+	background-color: #f195b2;
+	color: white;
+}
+
+.hlavicka {
+	display: flex;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	justify-content: space-around;
+	width: 1100px;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+}
+
+ul {
+	padding: 0;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Playfair Display', serif;
+	color: #3e606b;
+	line-height: 1.25;
+}
+
+h1 {
+	font-size: 52px;
+	margin: 0;
+}
+
+h2 {
+	font-size: 36px;
+	margin: 0;
+}
+
+.vitejte a {
+	text-decoration: none;
+	padding: 15px 40px;
+	border-radius: 30px;
+	background-color: #f195b2;
+	color: white;
+}
+
+.vitejte a:hover {
+	background-color: #d2567d;
+	color: white;
+}
+
+.vitejte {
+	width: 1100px;
+	display: flex;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	justify-content: center;
+}
+
+.cukrarka {
+	width: 50%;
+	padding-left: 30px;
+}
+
+img {
+	border-radius: 5px;
+}
